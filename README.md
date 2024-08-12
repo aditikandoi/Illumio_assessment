@@ -15,11 +15,10 @@ The Flow Log Processor is a Python-based tool that processes flow log data by ma
     ##### PROTOCOL_FIELD_INDEX = 7 (protocol)
 
 3. The flow log file is in plain text format with the `.txt` extension.
-4. The output is saved to 'output.txt'.
-5. The lookup table is a CSV file with 3 columns: `dstport`, `protocol`, and `tag`.
-6. The `dstport` and `protocol` values in the flow log file are case-insensitive.
-7. The lookup table may contain same tags for different `dstport` and `protocol` combinations, but the mapping for each combination is unique.
-8. The tool expects the output file to have a `.txt` extension.
+4. The lookup table is a CSV file with 3 columns: `dstport`, `protocol`, and `tag`.
+5. The `dstport` and `protocol` values in the flow log file are case-insensitive.
+6. The lookup table may contain same tags for different `dstport` and `protocol` combinations, but the mapping for each combination is unique.
+7. The tool expects the output file to have a `.txt` extension.
 
 ## Requirements
 
