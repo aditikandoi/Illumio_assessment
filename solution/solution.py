@@ -12,7 +12,7 @@ class Solution:
 
     def validate_file(self, filename):
         """
-        Validate the file and the file extension.
+        Checks if the file path exists.
         Args:
             filename: The file which needs to be checked.
         Raises:
@@ -24,7 +24,7 @@ class Solution:
 
     def validate_file_format(self, filename, expected_extension):
         """
-        Validate the file and the file extension.
+        Validate the file extension.
         Args:
             filename: The file which needs to be checked.
             expected_extension: The extension which was expected for the particular filename.
